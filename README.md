@@ -32,24 +32,9 @@ Instead of manually searching through lengthy documents, users can interact with
 
 ## Tech Stack
 
-### Frontend
-
-* React 18
-* TypeScript
-* React Query
-* Recharts
-
-### Backend
-
 * Python
 * FastAPI
 * LangChain
-* JWT Authentication
-
-### Database
-
-* MongoDB Atlas
-* MongoDB Atlas Vector Search
 
 ### AI & Machine Learning
 
@@ -57,14 +42,6 @@ Instead of manually searching through lengthy documents, users can interact with
 * GPT Models
 * Retrieval-Augmented Generation (RAG)
 
-### Cloud & DevOps
-
-* Docker
-* GitHub Actions
-* AWS ECS
-* AWS S3
-
----
 
 ## System Architecture
 
@@ -114,47 +91,7 @@ Answer Display
 
 ---
 
-## Project Structure
 
-enterprise-knowledge-base/
-
-frontend/
-
-├── src/
-
-├── components/
-
-├── pages/
-
-├── services/
-
-backend/
-
-├── app/
-
-│ ├── api/
-
-│ ├── auth/
-
-│ ├── rag/
-
-│ ├── database/
-
-│ ├── services/
-
-│ └── models/
-
-infrastructure/
-
-├── docker/
-
-├── github-actions/
-
-docs/
-
-README.md
-
----
 
 ## Workflow
 
@@ -169,31 +106,7 @@ README.md
 
 ---
 
-## Deployment
 
-The application is containerized using Docker and deployed on AWS.
-
-Deployment Pipeline:
-
-Source Code
-
-↓
-
-GitHub Actions CI/CD
-
-↓
-
-Docker Image Build
-
-↓
-
-AWS ECS Deployment
-
-↓
-
-Production Environment
-
----
 
 ## Future Enhancements
 
@@ -229,8 +142,5 @@ B.Tech CSE (Data Science)
 
 Institute of Technical Education and Research, SOA University
 
-Email: [sahud812003@gmail.com](mailto:sahud812003@gmail.com)
+GitHub: github.com/Dibyajyotisahu
 
-GitHub: github.com/your-github-username
-
-LinkedIn: linkedin.com/in/your-linkedin-profile
